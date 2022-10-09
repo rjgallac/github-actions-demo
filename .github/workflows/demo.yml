@@ -1,0 +1,8 @@
+name: Github Action Demo
+on: [push]
+jobs: 
+  Demo1:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: echo "hello world"
